@@ -1,0 +1,76 @@
+.inner {
+  max-width: 320px;
+  width: 100%;
+  margin: auto;
+
+  @media screen and (min-width: 1024px) {
+    margin: auto auto auto 0;
+  }
+
+  .registration {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .regBtn {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .personalData {
+    font-size: 86%;
+    color: #555;
+    input {
+      cursor: pointer;
+    }
+  }
+
+  .signup {
+    margin: 40px 0;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: right;
+
+    @media screen and (min-width: 1024px) {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+
+      margin: 0;
+      padding: 0;
+      border: 0;
+
+      display: flex;
+      align-items: center;
+      text-align: left;
+    }
+
+    & > div {
+      margin: 0 0 12px;
+      @media screen and (min-width: 1024px) {
+        margin: auto 12px auto 0;
+      }
+    }
+  }
+}
+
+//     .notes {
+//       max-width: 500px;
+//       width: 100%;
+//       margin: auto auto 0 0;
+//       font-size: 80%;
+//       color: #555;
+//       a {
+//         padding: 2px 0;
+//         margin: 0 0 4px;
+//       }
+//     }
+//   }
+// }
+
+// .legal {
+//   font-size: 80%;
+//   color: #555;
+//   line-height: 1.4em;
+// }

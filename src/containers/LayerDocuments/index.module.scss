@@ -1,0 +1,36 @@
+.partList {
+  margin-bottom: 50px;
+  .title {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .listItem {
+    margin-top: 2rem;
+    line-height: 1.5rem;
+  }
+
+  .subtitle {
+    text-decoration: underline;
+    margin-top: 2rem;
+  }
+
+  ol {
+    margin-top: 1rem;
+    list-style: none;
+    counter-reset: section;
+    margin-left: 1rem;
+    padding: 0;
+  }
+
+  li:before {
+    counter-increment: section;
+    content: counters(section, ".") ". ";
+  }
+}
+
+.headerTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: blue;
+}

@@ -1,0 +1,49 @@
+.inner {
+  max-width: 320px;
+  width: 100%;
+  margin: auto;
+
+  @media screen and (min-width: 1024px) {
+    margin: auto auto auto 0;
+  }
+
+  .forgetPassword {
+    display: flex;
+    align-items: center;
+    a {
+      display: block;
+      margin: 0 auto 0 0;
+    }
+    button {
+      width: 100%;
+    }
+  }
+
+  .signup {
+    margin: 40px 0;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: right;
+
+    @media screen and (min-width: 1024px) {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+
+      margin: 0;
+      padding: 0;
+      border: 0;
+
+      display: flex;
+      align-items: center;
+      text-align: left;
+    }
+
+    & > div {
+      margin: 0 0 12px;
+      @media screen and (min-width: 1024px) {
+        margin: auto 12px auto 0;
+      }
+    }
+  }
+}

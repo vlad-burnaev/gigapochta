@@ -1,0 +1,22 @@
+.container {
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #868686;
+  }
+
+  .input {
+    border-radius: 2px;
+    font-size: 14px;
+    border: 1px solid rgba(40, 40, 42, 0.16);
+    padding: 11px 10px 10px;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+
+    &:focus {
+      border-color: #522af3;
+      color: #522af3;
+    }
+  }
+}

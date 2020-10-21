@@ -1,0 +1,46 @@
+.btn {
+  padding: 10px 24px 9px;
+  font-family: inherit;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  // line-height: 1.43;
+  color: var(--font-color-main);
+  cursor: pointer;
+  outline: none;
+
+  transition: all 0.1s ease-in-out;
+
+  &.decoration {
+    border-radius: 2px;
+    border: 1px solid #522af3;
+    box-shadow: 0 2px 2px 0 rgba(40, 40, 42, 0.1);
+    background-color: transparent;
+    color: #522af3;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #522af3;
+      color: #fff;
+    }
+
+    &.active {
+      background-color: #522af3;
+      color: #fff;
+      &:hover {
+        background-color: #7452ff;
+      }
+    }
+  }
+
+  &.disabled {
+    border-color: #eee;
+    background-color: #eee;
+    color: #bbb;
+    box-shadow: none;
+  }
+}
+
+.href {
+  text-align: left;
+}
